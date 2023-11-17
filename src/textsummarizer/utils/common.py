@@ -1,5 +1,5 @@
 import os
-import box.exceptions import BoxValueError
+from box.exceptions import BoxValueError
 import yaml
 from textsummarizer.logging import logger
 from ensure import ensure_annotations
@@ -29,10 +29,10 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
             logger.info(f"yaml file: {path_to_yaml} loaded successfully")
             return ConfigBox(content)
 
-        except BoxValueError:
+    except BoxValueError:
             raise ValueError("yamll file is empty")
 
-        except Exception as e:
+    except Exception as e:
             raise e
 
 @ensure_annotations
