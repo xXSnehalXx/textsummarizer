@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: textsummarizer
+Version: 0.0.1
+Summary: A small python project for NLP App
+Home-page: https://github.com/xXSnehalXx/textsummarizer
+Author: xXSnehalXx
+Author-email: snehalmachan@gmail.com
+Project-URL: Bug Tracker, https://github.com/xXSnehalXx/textsummarizer/issues
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# textsummarizer
+started end to end nlp project 
