@@ -14,3 +14,6 @@ started end to end nlp project
 
 ## Components
 Start with the data ingestion components
+next data validation
+next data transformation
+(for each we are making it in ipynb, then converting it into modular coding)
